@@ -1,0 +1,74 @@
+.fotosArriba {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.fotosArriba div {
+  flex: 1;
+}
+.encabezado {
+  margin-left: 200px;
+}
+body {
+  background-color: #fafadf;
+  font: 1em sans-serif;
+}
+
+.barraMenu {
+  margin-left: 200px;
+}
+
+#boton {
+  padding: 0;
+}
+
+#boton li {
+  display: inline-block;
+}
+
+#boton li a {
+  font-family: Lucida;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 12px;
+  background-color: #82ed71;
+  color: #000;
+}
+
+.cuerpoCV {
+  margin: 50px;
+  display: table;
+  /*width: 100%;*/
+  max-width: 1200px;
+}
+
+.datosPersonales {
+  background-color: #e3e8e6;
+  /*margin-right: 10px;*/
+  padding: 20px;
+  /*margin-bottom: 20px;*/
+  max-width: 350px;
+  min-width: 300px;
+}
+.presentacion {
+  padding: 10px;
+}
+
+.cuerpoCV div {
+  display: table-cell;
+}
+
+.educacionExperiencia {
+  background-color: #9ad2fc;
+  padding: 20px;
+}
+
+/*
+.fotoArribaIZQ {
+  background-color: orange;
+}
+
+.fotoArribaDER {
+  background-color: skyblue;
+}*/ ;
